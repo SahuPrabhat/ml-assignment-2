@@ -1,7 +1,7 @@
 # Machine Learning Assignment - 2
-**Work Integrated Learning Programmes Division**  
-**M.Tech (AIML) - BITS Pilani**  
+ 
 **Student Name:** Prabhat Sahu  
+**Student Name:** 2026AK05539  
 
 ---
 
