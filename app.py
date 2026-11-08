@@ -1,6 +1,6 @@
 # Streamlit Web Application - ML Assignment 2
 # Student: Prabhat Sahu
-# M.Tech (AIML) - BITS Pilani
+# BITS ID: 2026AK05539
 
 import os
 import joblib
@@ -293,7 +293,7 @@ st.dataframe(comparison_df)
 
 # Highlight winning model
 best_model_row = comparison_df.sort_values(by=["Accuracy", "AUC"], ascending=False).iloc[0]
-st.success(f"🏆 **Top Performing Model on active test set:** {best_model_row['ML Model Name']} (Accuracy: {best_model_row['Accuracy']:.4f}, AUC: {best_model_row['AUC']:.4f}, MCC: {best_model_row['MCC']:.4f})")
+st.success(f" **Top Performing Model on active test set:** {best_model_row['ML Model Name']} (Accuracy: {best_model_row['Accuracy']:.4f}, AUC: {best_model_row['AUC']:.4f}, MCC: {best_model_row['MCC']:.4f})")
 
 # Preview raw test data
 with st.expander("View Uploaded / Active Test Data Table"):
