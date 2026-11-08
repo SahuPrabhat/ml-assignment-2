@@ -1,6 +1,6 @@
-# Machine Learning Assignment 2 - Model Training Script
+# Machine Learning Assignment 2
 # Student: Prabhat Sahu
-# M.Tech AIML - BITS Pilani
+# BITS ID: 2026AK05539
 
 import os
 import json
