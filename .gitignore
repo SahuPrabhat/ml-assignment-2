@@ -20,4 +20,3 @@ ENV/
 .DS_Store
 Thumbs.db
 *.pdf
-generate_submission_pdf.py
