@@ -50,7 +50,7 @@ def main():
         X, y, test_size=0.2, random_state=42, stratify=y
     )
     
-    # Save test dataset to root directory as required by assignment
+    
     test_df = X_test.copy()
     test_df['target'] = y_test
     test_csv_path = os.path.join(project_dir, 'test_data.csv')
