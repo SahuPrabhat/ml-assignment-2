@@ -19,4 +19,5 @@ ENV/
 # OS files
 .DS_Store
 Thumbs.db
-ML_Assignment_2_AIML_26Oct26.pdf
+*.pdf
+generate_submission_pdf.py
